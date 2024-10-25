@@ -2,22 +2,9 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <div className="w-full h-[calc(100vh-64px)] relative">
-      {/* Background Image */}
-      <div className="w-full h-full">
-        <img
-          src="/bg-banner.jpg"
-          alt="hero"
-          className="w-full h-full object-cover"
-        />
-      </div>
-
-      {/* Black Overlay */}
-      <div className="absolute inset-0 bg-black opacity-80"></div>
-
+    <div className="w-full h-[calc(100vh-64px)] ">
       {/* Content */}
-      <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center space-y-6 z-10 px-4">
-       
+      <div className="absolute inset-0 z-10 flex flex-col items-center justify-center text-white text-center space-y-6  px-4">
         <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold">
           Istiak Ahammad
         </h2>

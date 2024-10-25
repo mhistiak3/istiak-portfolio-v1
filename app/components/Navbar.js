@@ -73,7 +73,7 @@ const Navbar = () => {
         )}
 
         {isOpen && (
-          <div className="flex flex-col top-10 right-3 w-36 rounded-md bg-white gap-x-4 font-semibold absolute overflow-hidden">
+          <div className="flex flex-col top-10 right-3 w-36 rounded-md bg-white gap-x-4 font-semibold absolute overflow-hidden z-20 p-3">
             <Link
               href="#home"
               className="hover:bg-green-500 px-2 py-1 transition hover:text-white"

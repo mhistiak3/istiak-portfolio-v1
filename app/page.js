@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 
@@ -6,10 +7,12 @@ export default function Home() {
     <div className="w-full  h-screen bg-gray-300 relative">
       {/* Background Image */}
       <div className="w-full h-full">
-        <img
+        <Image
           src="/bg-banner.jpg"
           alt="hero"
           className="w-full h-full object-cover"
+          width={1400}
+          height={1400}
         />
       </div>
 

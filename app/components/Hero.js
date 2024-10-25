@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <div className="w-full h-[calc(100vh-64px)] ">
+    <div className="w-full h-[calc(100vh-80px)] ">
       {/* Content */}
       <div className="absolute inset-0 z-10 flex flex-col items-center justify-center text-white text-center space-y-6  px-4">
         <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold">

@@ -5,7 +5,7 @@ import { useState } from "react";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className="w-full h-16 flex items-center absolute inset-0 z-20">
+    <div className="w-full h-20 flex items-center absolute inset-0 z-20">
       {/* Nav for big screen */}
       <div className="w-full lg:w-4/5 mx-5 lg:mx-auto  hidden md:flex  justify-between items-center ">
         <h2 className="text-2xl font-semibold bg-green-500 py-1 px-3 cursor-pointer rounded-md text-white">
